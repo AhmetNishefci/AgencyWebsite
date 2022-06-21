@@ -6,17 +6,12 @@ const Footer = () => {
   return (
     <div className={style.container}>
       <div className={style.cardL}>
-        <h1 className={style.title}>AV0CAD0 CREATIVES.</h1>
+        <h1 className={style.title}>HeadStart CREATIVES.</h1>
         <h1 className={style.linkTitle}>
           <Link href="/contact" className={style.link} passHref>
             <>
               <span className={style.linkText}>WORK WITH US</span>
-              <Image
-                src={process.env.NEXT_PUBLIC_URL + "/img/link.png"}
-                width="40px"
-                height="40px"
-                alt=""
-              />
+              <Image src="/img/link.png" width="40px" height="40px" alt="" />
             </>
           </Link>
         </h1>
@@ -27,8 +22,8 @@ const Footer = () => {
           <br /> USA
         </div>
         <div className={style.cardItem}>
-          CONTACT@LAMA.DEV
-          <br /> 111_438_5244
+          filanfisteku@gmail.com
+          <br /> 12345678
         </div>
       </div>
       <div className={style.cardS}>
@@ -37,7 +32,7 @@ const Footer = () => {
           <br /> __FB __IN __BE __TW
         </div>
         <div className={style.cardItem}>
-          © 2022 LAMA INTERACTIVE,
+          © 2022 HeadStart INTERACTIVE,
           <br />
           ALL RIGHTS RESERVED
         </div>

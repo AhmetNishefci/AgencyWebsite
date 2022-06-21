@@ -43,11 +43,13 @@
 
 .brandName {
   color: green;
+  font-family: "Libre Bodoni", serif;
 }
 
 .desc {
   font-size: 20px;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .button {
@@ -60,6 +62,7 @@
   width: 100px;
   cursor: pointer;
   animation: button 1s ease infinite alternate;
+  font-family: "Roboto", sans-serif;
 }
 
 @keyframes button {

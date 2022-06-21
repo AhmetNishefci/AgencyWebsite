@@ -10,9 +10,10 @@ function Intro() {
       <Circle background-color="#01c686" right="-40vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
-          <span>Avocado</span>DIGITAL PRODUCT AGENCY
+          <span className={styles.brandName}>HeadStart</span> DIGITAL PRODUCT
+          AGENCY
         </h1>
-        <p className={styles.description}>
+        <p className={styles.desc}>
           Create live segments and target the right people for messages based on
           their behaviors.
         </p>

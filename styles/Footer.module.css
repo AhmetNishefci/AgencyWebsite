@@ -15,6 +15,7 @@
   width: max-content;
   padding: 5px;
   transition: all 1s ease;
+  font-family: "Libre Bodoni", serif;
 }
 
 .title:hover {
@@ -26,6 +27,7 @@
   text-decoration: underline;
   transform-origin: left;
   transition: all 1s ease;
+  font-family: "Roboto", sans-serif;
 }
 
 .linkTitle:hover {
@@ -55,6 +57,7 @@
   font-size: 14px;
   margin-bottom: 20px;
   text-align: right;
+  font-family: "Roboto", sans-serif;
 }
 
 @media screen and (max-width: 480px) {

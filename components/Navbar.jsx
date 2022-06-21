@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className={style.container}>
-      <Link href="/">AV0CAD0</Link>
+      <Link href="/">HeadStart</Link>
       <ul className={style.list}>
         <li className={style.listItem}>
           <Link href="/products/design">DESIGN</Link>

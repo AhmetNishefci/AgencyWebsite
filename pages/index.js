@@ -1,10 +1,32 @@
 import Head from "next/head";
-import Intro from "../components/Intro";
-import Services from "../components/Services";
-import Testimonials from "../components/Testimonials";
+// import Intro from "../components/Intro";
+// import Services from "../components/Services";
+// import Testimonials from "../components/Testimonials";
 import { data } from "../data";
-
+import dynamic from "next/dynamic";
 import styles from "../styles/Home.module.css";
+
+const Intro = dynamic(() => import("../components/Intro"), {
+  loading: () => (
+    <div>
+      <p>Loading...</p>
+    </div>
+  ),
+});
+const Services = dynamic(() => import("../components/Services"), {
+  loading: () => (
+    <div>
+      <p>Loading...</p>
+    </div>
+  ),
+});
+const Testimonials = dynamic(() => import("../components/Testimonials"), {
+  loading: () => (
+    <div>
+      <p>Loading...</p>
+    </div>
+  ),
+});
 
 export default function Home({ services }) {
   console.log(services);
